@@ -44,5 +44,5 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito por Emanuel Tavecia
+Feito por Emanuel Tavecia <br>
 Modelo feito com ♥ by Rocketseat :wave: [Participe da comunidade!](https://discord.gg/rocketseat)
