@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 :root {
   --text-color: white;
@@ -22,14 +23,7 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 body {
-  /*
-  background-image: url(assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  */
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -89,7 +83,6 @@ body * {
   border-radius: 9999px;
 }
 
-/*links */
 ul {
   list-style: none;
   display: flex;
@@ -137,15 +130,6 @@ footer {
   line-height: 22px;
   text-align: center;
   font-size: 14px;
-}
-
-@media (min-width: 700px) {
-  :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
-  }
-  .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg);
-  }
 }
 
 @keyframes slide-in {
