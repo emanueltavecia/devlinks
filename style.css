@@ -29,6 +29,7 @@ body {
   background-size: cover;
   */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -69,10 +70,13 @@ body * {
   right: 0;
   z-index: 1;
   transform: translateY(-50%);
+  animation: slide-back 0.2s;
 }
 .light #switch button {
-  left: 0;
-  right: initial;
+  animation: slide-in 0.2s forwards;
+}
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 #switch span {
   display: block;
@@ -141,5 +145,22 @@ footer {
   }
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    right: 0;
+  }
+  to {
+    right: 50%;
+  }
+}
+@keyframes slide-back {
+  from {
+    right: 50%;
+  }
+  to {
+    right: 0;
   }
 }
