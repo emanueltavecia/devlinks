@@ -91,7 +91,7 @@ ul {
 	padding: 24px 0;
 }
 ul li a {
-  height: 54px;
+	height: 54px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -133,9 +133,9 @@ footer {
 	font-size: 14px;
 }
 .footer-link:hover {
-  background: rgb(116, 31, 196, 0.4);
-  border-radius: 2px;
-  transition: background 0.4s;
+	background: rgb(116, 31, 196, 0.4);
+	border-radius: 2px;
+	transition: background 0.4s;
 }
 
 @keyframes slide-in {
