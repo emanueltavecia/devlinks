@@ -41,6 +41,7 @@ body * {
 }
 #profile img {
 	width: 112px;
+	border-radius: 999px;
 }
 #profile p {
 	font-weight: 500;
